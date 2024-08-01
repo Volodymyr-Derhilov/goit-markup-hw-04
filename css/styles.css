@@ -241,15 +241,11 @@ img {
   background-color: #f4f4fd;
   border: 1px solid #8e8f99;
   border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
   margin-bottom: 8px;
-  padding: 24px 0;
-}
-
-.strategy-icon-item {
-  display: block;
-  width: 64px;
-  height: 64px;
-  margin: 0 auto;
 }
 
 .title-description {
