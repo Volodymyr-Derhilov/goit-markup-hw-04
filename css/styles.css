@@ -8,7 +8,7 @@ body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -21,6 +21,7 @@ ul {
 a {
   text-decoration: none;
   color: #434455;
+  margin: 0;
 }
 
 h1,
@@ -245,7 +246,7 @@ img {
 }
 
 .strategy-icon-item {
-  fill: none;
+  display: block;
   width: 64px;
   height: 64px;
   margin: 0 auto;
@@ -274,6 +275,14 @@ img {
   background-color: #f4f4fd;
 }
 
+.team-card:hover .person-links-list-item {
+  background-color: #404bbf;
+}
+
+.team-card .person-links-list-item {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .team-card {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
@@ -297,6 +306,37 @@ img {
 
 .person-position {
   padding: 32px 0;
+}
+
+.person-position .paragraph {
+  margin-bottom: 8px;
+}
+
+.person-links-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.person-links-list-item-link {
+  display: block;
+}
+
+.person-links-list-icon {
+  width: 16px;
+  height: 16px;
+  fill: #f4f4fd;
+}
+
+.person-links-list-item {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .portfolio {
@@ -363,4 +403,27 @@ img {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
+}
+
+.social-media .motto {
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.social-media .person-links-list-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-elements {
+  display: flex;
+  gap: 120px;
+}
+
+.social-media .person-links-list-item {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-media:hover .person-links-list-item {
+  background-color: #31d0aa;
 }
