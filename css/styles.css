@@ -270,8 +270,11 @@ img {
   background-color: #f4f4fd;
 }
 
-.team-card:hover .person-links-list-item-link,
-.team-card:focus .person-links-list-item-link {
+.team-card:hover .person-links-list-item-link {
+  background-color: #404bbf;
+}
+
+.person-links-list-item-link:focus {
   background-color: #404bbf;
 }
 
@@ -370,7 +373,7 @@ img {
 }
 
 .project-card:hover .paragraph.overlay {
-  transform: translateY(0);
+  transform: translateY(0%);
 }
 
 .portfolio-app {
@@ -419,11 +422,14 @@ img {
   margin-right: 120px;
 }
 
-.social-media .person-links-list-item {
+.social-media .person-links-list-item-link {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-media:hover .person-links-list-item-link,
-.social-media:focus .person-links-list-item-link {
+.social-media:hover .person-links-list-item-link {
+  background-color: #31d0aa;
+}
+
+.social-media .person-links-list-item-link:focus {
   background-color: #31d0aa;
 }
