@@ -372,7 +372,7 @@ img {
   padding: 40px 32px;
 }
 
-.project-card:hover .paragraph.overlay {
+.project-card:hover .current .paragraph.overlay {
   transform: translateY(0%);
 }
 
