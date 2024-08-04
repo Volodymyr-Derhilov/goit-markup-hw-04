@@ -270,10 +270,7 @@ img {
   background-color: #f4f4fd;
 }
 
-.team-card:hover .person-links-list-item-link {
-  background-color: #404bbf;
-}
-
+.person-links-list-item-link:hover,
 .person-links-list-item-link:focus {
   background-color: #404bbf;
 }
@@ -425,10 +422,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-media:hover .person-links-list-item-link {
-  background-color: #31d0aa;
-}
-
+.social-media .person-links-list-item-link:hover,
 .social-media .person-links-list-item-link:focus {
   background-color: #31d0aa;
 }
